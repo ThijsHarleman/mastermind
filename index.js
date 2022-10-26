@@ -36,7 +36,6 @@ function createPasscode() {
   for (let i = 0; i < passcodeLength; i++) {
     passcode.push(Math.floor(Math.random() * 10));
   }
-  console.log(passcode);
 }
 
 function clearBoard() {
